@@ -16,7 +16,7 @@ src: url('RetroSignature.otf')
 /* Header */
 header img
 {
-   width: 350px;
+   width: 550px;
 }
 #barre_acceuil
 {
@@ -43,12 +43,12 @@ body
 a
 {
     text-decoration: none;
-    color: black;
+    color: rgb(56, 7, 172);
     font-size: .6em;
 }
 a:hover
 {
-    text-decoration: underline black;
+    text-decoration:  #4a07c5;
 }
 /* Section banniere */
 #banniere , #carousel_photo
@@ -78,14 +78,15 @@ em
 }
 h2
 {
-    font-size: 6em;
-    color: #db6809;
-    text-decoration: underline #db680942;
+    font-size: 7em;
+    color: #CEA59C;
+    text-decoration: underline 3px #E2C9BF;
     font-family: RetroSignature;
 }
 p
 {
     font-size: 2.1em;
+    color:#707976;
 }
 /* Section atelier */
 #ateliers
@@ -101,11 +102,11 @@ p
 }
 #image_ateliers
 {
-    background-image:url("./images/bébé_01.jpg");
+    background-image:url("./images/photo-sophie-color.jpg");
     width: 30%;
     height: 650px;
     background-size: cover;
-   
+   box-shadow: -60px 50px 1px 1px #cea49b;
     
 }
 #content_ateliers
@@ -230,7 +231,7 @@ display: block;
     overflow: hidden;
     min-height: 375px;
     position: relative;
-    background: #cea49b;
+    background: url(images/floral-shadow-natural-beige-background.jpg) no-repeat center fixed ;
   }
   #testimonial4 .carousel-inner{
     width: 75%;
@@ -487,7 +488,7 @@ display: block;
 /* Bouttons */
 #buttons
 {
-    color: #d36424;
+    color: #CEA59C;
     font-size: 1.52em;
     border: 1px  solid;
     padding-left: 10px;
@@ -495,8 +496,7 @@ display: block;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: sans-serif;
-    border-radius: 1px;
-    
+    border-radius: 10px;
 }
 
 .blog .carousel-indicators {
@@ -514,12 +514,13 @@ nav
     margin: 0;
     padding: 0;
     background-color: white;
+    margin-bottom: 2%;
 }
 li, a, button
 {
-font-weight: 500;
+font-weight: 550;
 font-size: 20px;
-color: black;
+color: #AAB5B2;
 text-decoration: none;
 }
 header
@@ -548,12 +549,12 @@ header
 .nav_links li a {
     transition: all 0.3s ease 0s;
 }.nav_links li a:hover {
-    color: darkblue;
+    color: rgb(90, 62, 29);
 }
 button
 {
     padding : 9px 25px;
-    background-color: rgb(212, 129, 20);
+    background-color: #CEA59C;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -561,7 +562,7 @@ button
 }
 button:hover
 {
-    background-color: rgb(245, 143, 9);
+    background-color: rgb(25, 136, 90);
 
 }
 /* Responsive tablette */
@@ -585,7 +586,7 @@ and (max-width: 800px)
     height: 600px;
     background-size: cover; 
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%;    
 }
 #content_ateliers
 {
