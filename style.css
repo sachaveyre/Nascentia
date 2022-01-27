@@ -87,27 +87,65 @@ p
 {
     font-size: 2.1em;
     color:#707976;
+    margin-bottom: 10%;
 }
 /* Section atelier */
 #ateliers
 {
-    margin-top: 10%;
-    margin-bottom: 110;
     display: flex;
     flex-direction: row;
    width: 100%;
    flex-wrap: wrap;
    justify-content: space-between;
    overflow: hidden;
+   height: 850px;
 }
 #image_ateliers
+{
+    background-image:url("./images/photo_atelier.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+   box-shadow: -60px 50px 1px 1px #cea49b;
+}
+#image_histoire
 {
     background-image:url("./images/photo-sophie-color.jpg");
     width: 30%;
     height: 650px;
     background-size: cover;
    box-shadow: -60px 50px 1px 1px #cea49b;
-    
+}
+#image_allaitement
+{
+    background-image:url("./images/photo_allaitement.jpg");
+    width: 30%;
+    height: 650px;
+    background-size:cover;
+   
+}
+#image_diversification
+{
+    background-image:url("./images/photo_diversification.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+   box-shadow: -60px 50px 1px 1px #cea49b;
+}
+#image_massage
+{
+    background-image:url("./images/photo_massage.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+}
+#image_sommeil
+{
+    background-image:url("./images/photo_sommeil.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+   box-shadow: -60px 50px 1px 1px #cea49b;
 }
 #content_ateliers
 {
@@ -115,15 +153,32 @@ p
     margin-top: 5%;   
     margin-bottom: 20%;
 }
+#content_ateliers p
+{
+  text-align: justify;
+}
+.background_container
+{
+  background: #cea49b48;
+  padding-top: 100px;
+  margin-top: 0%;
+}
+.first_container
+{
+  margin-top : 10%;
+}
 /* section footer */
 footer{
   margin-top: 2%;
-  background: #cea49b;
+  background: url(images/floral-shadow-natural-beige-background.jpg) no-repeat center fixed ;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
   color: #956557;
   font-family: arial ;
+}
+h4{
+  font-size: 3em;
 }
 .footer-content{
   display: flex;
@@ -467,24 +522,7 @@ display: block;
     }
   }
   
-/* Section présentation */
-#presentation
-{
-    margin-top: 10%;
-    margin-bottom: 110;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#image_presentation
-{
-    background-image:url("./images/image_banniere_acceuil.jpg");
-    width: 30%;
-    height: 750px;
-    background-size: cover;
-    margin-left: 5%;
-    
-}
+
 /* Bouttons */
 #buttons
 {
@@ -497,6 +535,10 @@ display: block;
     padding-bottom: 10px;
     font-family: sans-serif;
     border-radius: 10px;
+    transition: all 0.6s ease 0s;
+}
+#buttons:hover{
+  color: #a52f15;
 }
 
 .blog .carousel-indicators {
@@ -549,7 +591,7 @@ header
 .nav_links li a {
     transition: all 0.3s ease 0s;
 }.nav_links li a:hover {
-    color: rgb(90, 62, 29);
+    color: #CEA59C;
 }
 button
 {
