@@ -13,6 +13,9 @@ src: url('RetroSignature.otf')
 {
     font-family: Raleway;
 }
+body{
+  background-color: #ffd8d021;
+}
 /* Header */
 header img
 {
@@ -405,12 +408,12 @@ display: block;
     position: relative;
   }
   .testimonial4_header h4{
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: 600;
+    color: #956557;
+    font-size: 55px;
+    font-weight: 500;
     position: relative;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family: Retrosignature;
   }
   
   .testimonial4_slide{
@@ -555,7 +558,6 @@ nav
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white;
     margin-bottom: 2%;
 }
 li, a, button
