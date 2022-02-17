@@ -649,14 +649,23 @@ and (min-width: 300px)
 and (max-width: 500px)
 
 {
-#image_ateliers
+header img
 {
-    background-image:url("./images/bébé_01.jpg");
-    width: 80%;
-    height: 400px;
-    background-size: cover; 
-    margin-left: 10%;
-    margin-right: 10%;
+  width: 80%;
+}
+.logo
+{
+  margin-left: 10%;
+  margin-right: 0px;
+}
+li, a, button
+{
+  font-size: 30px;
+}
+#ateliers
+{
+  height: auto;
+  display: block;
 }
 #content_ateliers
 {
@@ -667,4 +676,20 @@ and (max-width: 500px)
     margin-left: 10%;
     margin-right: 10%;
 }
+#image_histoire , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement   {
+  width: 80%;
+  height: 350px;
+  margin-left: 10%;
+  box-shadow: -15px 20px 1px 1px #cea49b;
+}
+#image_diversification
+{
+  margin-bottom: 10%;
+}
+div#testimonial4 {
+  margin-top: 10%;
+}
+h2 
+{
+  text-align: center;
 }
