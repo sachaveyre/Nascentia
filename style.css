@@ -38,6 +38,9 @@ header img
     font-size: 2.5em;
     flex-wrap: nowrap;
 }
+ul.nav_links {
+  margin-top: 30px;
+}
 body
 {
     margin-left:0;
@@ -103,6 +106,15 @@ p
    overflow: hidden;
    height: 850px;
 }
+#ateliers_histoire
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
 #image_ateliers
 {
     background-image:url("./images/photo_atelier.jpg");
@@ -156,10 +168,7 @@ p
     margin-top: 5%;   
     margin-bottom: 20%;
 }
-#content_ateliers p
-{
-  text-align: justify;
-}
+
 .background_container
 {
   background: #cea49b48;
@@ -617,7 +626,7 @@ and (min-width: 500px)
 and (max-width: 800px)
 
 {
-#ateliers
+#ateliers , #ateliers_histoire
 {
   display: flex;
   flex-direction: column-reverse;
@@ -661,7 +670,7 @@ li, a, button
 {
   font-size: 30px;
 }
-#ateliers
+#ateliers , #ateliers_histoire
 {
   height: auto;
   display: block;
