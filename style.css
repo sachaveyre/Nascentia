@@ -114,6 +114,8 @@ p
   flex-wrap: wrap;
   justify-content: space-between;
   overflow: hidden;
+  height: 1500px;
+  margin-top: 0px;
 }
 #image_ateliers
 {
@@ -130,6 +132,7 @@ p
     height: 650px;
     background-size: cover;
    box-shadow: -60px 50px 1px 1px #cea49b;
+   margin-top: 400px;
 }
 #image_allaitement
 {
