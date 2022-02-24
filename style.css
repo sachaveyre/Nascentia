@@ -134,6 +134,14 @@ p
    box-shadow: -60px 50px 1px 1px #cea49b;
    margin-top: 400px;
 }
+#image_histoire_2
+{
+    background-image:url("./images/photo-sophie-color.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+   box-shadow: -60px 50px 1px 1px #cea49b;
+}
 #image_allaitement
 {
     background-image:url("./images/photo_allaitement.jpg");
