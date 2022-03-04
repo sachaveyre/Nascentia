@@ -80,7 +80,10 @@ h1
 em
 {
   
-    font-family:RetroSignature ;
+   
+    font-style: italic;
+    font-size: 2.3em;
+    font-weight: 500;
 }
 h2
 {
