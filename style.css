@@ -307,7 +307,7 @@ display: block;
 
 #testimonial4{
     overflow: hidden;
-    min-height: 520px;
+    min-height: 420px;
     position: relative;
     background: url(images/floral-shadow-natural-beige-background.jpg) no-repeat center fixed ;
   }
@@ -488,6 +488,9 @@ display: block;
       width: 98%;
       padding: 5px;
     }
+    #testimonial4{
+      min-height: 520px;
+    }
   }
   
   @media (min-width: 481px) and (max-width: 767px){
@@ -504,6 +507,7 @@ display: block;
       width: 98%;
       padding: 5px;
     }
+    
   }
   
   @media (min-width: 768px) and (max-width: 991px){
