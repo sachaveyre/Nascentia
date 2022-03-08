@@ -719,7 +719,8 @@ li, a, button
     margin-left: 10%;
     margin-right: 10%;
 }
-#image_histoire , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement   {
+#image_histoire , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement , #image_empreintes , #image_reflexologie
+{
   width: 80%;
   height: 350px;
   margin-left: 10%;
