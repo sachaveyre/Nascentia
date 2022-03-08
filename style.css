@@ -178,6 +178,21 @@ p
     background-size: cover;
    box-shadow: -60px 50px 1px 1px #cea49b;
 }
+#image_reflexologie
+{
+  background-image:url("./images/photo_reflexologie.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+}
+#image_empreintes
+{
+  background-image:url("./images/photo_empreintes.jpg");
+  width: 30%;
+  height: 650px;
+  background-size: cover;
+ box-shadow: -60px 50px 1px 1px #cea49b;
+}
 #content_ateliers
 {
     width: 30%;
