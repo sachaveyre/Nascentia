@@ -92,6 +92,7 @@ h2
     color: #CEA59C;
     text-decoration: underline 3px #E2C9BF;
     font-family: RetroSignature;
+    line-height: 0.8;
 }
 p
 {
@@ -467,7 +468,7 @@ display: block;
   
   .testimonial4_slide p {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 26px;
     margin: 40px 0 20px 0;
   }
   
