@@ -180,14 +180,14 @@ p
 }
 #image_reflexologie
 {
-  background-image:url("./images/photo_reflexologie.jpg");
+  background-image:url("./images/photo_reflexologie.jpeg");
     width: 30%;
     height: 650px;
     background-size: cover;
 }
 #image_empreintes
 {
-  background-image:url("./images/photo_empreintes.jpg");
+  background-image:url("./images/photo_empreintes.jpeg");
   width: 30%;
   height: 650px;
   background-size: cover;
