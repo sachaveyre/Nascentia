@@ -728,12 +728,18 @@ header img
 }
 li, a, button
 {
-  font-size: 30px;
+  font-size: px;
 }
 #ateliers , #ateliers_histoire
 {
   height: auto;
   display: block;
+}
+.list
+{
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 #content_ateliers
 {
