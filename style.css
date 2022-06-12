@@ -616,7 +616,10 @@ display: block;
   align-items: center;
   justify-content: space-around;
 }
-
+.list
+{
+  height: 250px;
+}
 /* test navbar */
 nav
 {
