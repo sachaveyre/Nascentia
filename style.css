@@ -775,9 +775,10 @@ li, a, button
   width: 80%;
   height: 350px;
   margin-left: 10%;
+  margin-bottom: 100px;
   box-shadow: -15px 20px 1px 1px #cea49b;
 }
-#image_diversification
+#image_diversification , #image_sommeil
 {
   margin-bottom: 10%;
 }
