@@ -130,9 +130,9 @@ p
     background-size: cover;
    box-shadow: -60px 50px 1px 1px #cea49b;
 }
-#image_histoire
+#image_cabinet
 {
-    background-image:url("./images/photo-sophie-color.jpg");
+    background-image:url("./images/image_cabinet.jpg");
     width: 30%;
     height: 650px;
     background-size: cover;
@@ -728,7 +728,7 @@ li, a, button
     margin-left: 10%;
     margin-right: 10%;
 }
-#image_histoire , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement , #image_empreintes , #image_reflexologie , #image_thalasso
+#image_histoire , #image_cabinet , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement , #image_empreintes , #image_reflexologie , #image_thalasso
 {
   width: 80%;
   height: 350px;
