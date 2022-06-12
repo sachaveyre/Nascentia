@@ -228,7 +228,7 @@ p
 }
 /* section footer */
 footer{
-  margin-top: 2%;
+  margin-top: 0%;
   background: url(images/floral-shadow-natural-beige-background.jpg) no-repeat center fixed ;
   height: auto;
   width: 100%;
@@ -731,9 +731,18 @@ ul.nav_links {
   margin-left: 10%;
   margin-right: 0px;
 }
+.title
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 li, a, button
 {
   font-size: px;
+}
+#image_cabinet
+{
+  margin-top:20px ;
 }
 #ateliers , #ateliers_histoire
 {
