@@ -184,6 +184,8 @@ p
     width: 30%;
     height: 650px;
     background-size: cover;
+    box-shadow: -60px 50px 1px 1px #cea49b;
+
 }
 #image_thalasso
 {
@@ -200,7 +202,6 @@ p
   width: 30%;
   height: 650px;
   background-size: cover;
- box-shadow: -60px 50px 1px 1px #cea49b;
 }
 #content_ateliers
 {
