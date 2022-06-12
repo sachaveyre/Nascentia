@@ -64,6 +64,13 @@ a:hover
   height: 550px;
   display: inline-block;
 }
+#banniere2 
+{
+  background: url(images/floral-shadow-natural-beige-background.jpg) no-repeat center fixed ;
+  background-size:cover;
+  height: 250px;
+  display: inline-block;
+}
 h1
 {
     font-size: 6em;
@@ -602,7 +609,13 @@ display: block;
     bottom: -40px;
 
 }
-/* test caroussel photo */
+/* page contact */
+.list-unstyled
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 /* test navbar */
 nav
