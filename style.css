@@ -614,7 +614,8 @@ display: block;
 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-left: 5%;
 }
 .list
 {
@@ -740,9 +741,14 @@ li, a, button
 {
   font-size: px;
 }
+.list-unstyled
+{
+  padding-left: 0%;
+}
 #image_cabinet
 {
   margin-top:20px ;
+  margin-bottom: 40px;
 }
 #ateliers , #ateliers_histoire
 {
