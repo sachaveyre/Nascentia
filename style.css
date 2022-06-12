@@ -185,6 +185,13 @@ p
     height: 650px;
     background-size: cover;
 }
+#image_thalasso
+{
+  background-image:url("./images/photo_thalasso.jpg");
+    width: 30%;
+    height: 650px;
+    background-size: cover;
+}
 #image_empreintes
 {
   background-image:url("./images/photo_empreintes.jpeg");
@@ -719,7 +726,7 @@ li, a, button
     margin-left: 10%;
     margin-right: 10%;
 }
-#image_histoire , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement , #image_empreintes , #image_reflexologie
+#image_histoire , #image_ateliers, #image_ateliers, #image_diversification, #image_massage , #image_sommeil , #image_allaitement , #image_empreintes , #image_reflexologie , #image_thalasso
 {
   width: 80%;
   height: 350px;
