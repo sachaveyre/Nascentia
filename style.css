@@ -118,6 +118,10 @@ p
    overflow: hidden;
    height: 850px;
 }
+.prix 
+{
+  margin-bottom: 0px;
+}
 #ateliers_histoire
 {
   display: flex;
