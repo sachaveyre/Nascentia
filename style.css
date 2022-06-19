@@ -226,6 +226,7 @@ p
 {
   margin-top : 10%;
 }
+
 /* section footer */
 footer{
   margin-top: 0%;
@@ -737,7 +738,7 @@ footer{
 {
   background: url(images/floral2.jpg) no-repeat center fixed ;
   background-size:cover;
-  height: 550px;
+  height: 250px;
   display: inline-block;
 }
 #banniere2 
@@ -769,6 +770,11 @@ li, a, button
 .list-unstyled
 {
   padding-left: 0%;
+}
+.container_inverse
+{
+  display:flex;
+  flex-direction: row-reverse;
 }
 #image_cabinet
 {
