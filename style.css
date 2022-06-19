@@ -778,9 +778,12 @@ li, a, button
 .container_inverse
 {
   display:flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 #ateliers
+{
+  justify-content: normal;
+}
 
 #image_cabinet
 {
