@@ -780,6 +780,8 @@ li, a, button
   display:flex;
   flex-direction: row-reverse;
 }
+#ateliers
+
 #image_cabinet
 {
   margin-top:20px ;
@@ -788,7 +790,6 @@ li, a, button
 #ateliers , #ateliers_histoire
 {
   height: auto;
-  display: block;
 }
 .list
 {
